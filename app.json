@@ -19,11 +19,11 @@
         "description": "TOKEN HERE",
         "value": ""
       },
-      "TOKEN": {
-        "description": "TOKEN HERE",
+      "SESSION": {
+        "description": "SESSION HERE",
         "value": ""
       },
-      "TOKEN": {
+      "HH": {
         "description": "TOKEN HERE",
         "value": ""
       }
