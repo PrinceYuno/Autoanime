@@ -15,7 +15,7 @@
         "description": "API HASH HERE",
         "value": ""
       },
-      "TOKEN": {
+      "BOT_TOKEN": {
         "description": "TOKEN HERE",
         "value": ""
       },
@@ -23,7 +23,11 @@
         "description": "SESSION HERE",
         "value": ""
       },
-      "HH": {
+      "LOG_GROUP": {
+        "description": "UR PRIVATE GRP ID  HERE",
+        "value": ""
+      },
+      "LOG_CHANNEL": {
         "description": "TOKEN HERE",
         "value": ""
       }
