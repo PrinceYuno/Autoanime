@@ -14,7 +14,7 @@ from decouple import config
 logging.info("Starting...")
 api_id = os.environ.get("APP_ID")
 api_hash = os.environ.get("API_HASH")
-url = list(set(i for i in os.environ.get("URL", "https://animepahe.com/rss/?r=sd").split("|")))
+url = list(set(i for i in os.environ.get("URL", "https://subsplease.org/rss/?r=sd").split("|")))
 token = os.environ.get("BOT_TOKEN")
 session = os.environ.get("SESSION")
 log_group = int(os.environ.get("LOG_GROUP", None))
@@ -66,8 +66,8 @@ def create_feed_checker(kk):
 async def n(client, message):
   media = message.video
   name = f"{message.caption}"
-  if "[AnimePahe]" in name:
-     kk_name = name.replace("[AnimePahe]", "")
+  if "[SubsPlease]" in name:
+     kk_name = name.replace("[SubsPlease]", "")
   else:
      kk_name = name
   if "(" in kk_name:
