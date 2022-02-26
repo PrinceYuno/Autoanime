@@ -78,7 +78,7 @@ async def n(client, message):
   await message.copy(log_group, caption=title)
 
 
-@n.on_message((filters.video) & filters.chat(log_group) & filters.incoming & ~filters.forwarded)
+@k.on_message((filters.video) & filters.chat(log_group) & filters.incoming & ~filters.forwarded)
 async def n(client, message):
   media = message.video
   title = f"{message.caption}"
