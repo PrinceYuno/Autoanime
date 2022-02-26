@@ -1,1 +1,1 @@
-Worker: python3 animepahe.py
+Worker: python3 subsplease.py
