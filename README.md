@@ -1,4 +1,4 @@
-# Autoanime 😪
+# Autoanime 
 
 New Anime Upload Your Channel
 
