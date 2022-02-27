@@ -7,7 +7,7 @@
     ],
     "repository": "https://github.com/KarlexD/Autoanime",
     "env": {
-      "APP_ID": {
+      "API_ID": {
         "description": "API ID HERE",
         "value": ""
       },
