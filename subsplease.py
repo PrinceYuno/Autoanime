@@ -94,7 +94,7 @@ grp_message = '''
 Hello there, I am Anime Uploaded Bot for lmao
 '''
 
-@n.on_message(filters.command(["start"], prefixes=["/", "!"]))
+@k.on_message(filters.command(["start"], prefixes=["/", "!"]))
 async def start(client, message):
     self = await bot.get_me()
     busername = self.username
